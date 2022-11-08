@@ -1,0 +1,43 @@
+body {
+  background-color: #d1e0e0;
+}
+
+hr {
+  border-top: 10px dotted white;
+  border-bottom: none;
+  width: 15%
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #75a3a3;
+}
+
+h1:active {
+  color: black;
+}
+
+img {
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+}
+
+.info, .contact {
+  font-family: cursive;
+  color: #2d8659;
+}
+
+.contact:hover {
+  color: blue;
+}
+.contact:active{
+  color: white;
+}
+.contact:visited{
+  cursor: vertical-text;
+}
+
+input:-webkit-autofill {
+    border: 3px solid darkorange;
+}
